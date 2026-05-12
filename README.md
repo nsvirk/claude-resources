@@ -23,7 +23,7 @@ The file has two sections with explicit priority:
 - **Rules** — hard constraints.
 - **Behavioral Guidelines** — defaults that yield to your explicit instructions when they conflict.
 
-## Sizing & assessment
+### Sizing & assessment
 
 **749 words / ~1000 tokens.** Comfortably in the "mostly retained" attention band for in-context instructions (rough guide: <200 words = every rule lands; 200–800 = mostly retained; 800–2000 = softer rules drift; 2000+ = attention noise). Long enough to cover real failure modes, short enough that every rule gets weighed each turn.
 
